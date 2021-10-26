@@ -92,7 +92,7 @@ img {
 .portfolio-gallery {
   margin: 1rem auto 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 0.5rem;
   grid-auto-rows: 300px;
 }
