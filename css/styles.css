@@ -152,6 +152,9 @@ img {
   color: black;
   padding: 0 1rem 1rem 1rem
 }
+.about-socail a:hover {
+  color: mediumvioletred;
+}
 
 /*Begin Media Queries for Tablets and Desktop*/
 
@@ -168,6 +171,18 @@ img {
     font-size: 3rem;
     line-height: 3rem;
   }
+.about-container {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+.about-text h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.about-text p{
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
 }
 
 @media (min-width: 920px) {
@@ -182,5 +197,21 @@ img {
   .portfolio-container h1 {
     font-size: 5rem;
     line-height: 5rem;
+  }
+  .portfolio-container, .about-container {
+    max-width: 1400px;
+  }
+  .about-text h1{
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .about-text p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .about-socail a{
+    font-size: 3rem;
+    padding: 0 2rem 2rem 2rem
+
   }
 }
