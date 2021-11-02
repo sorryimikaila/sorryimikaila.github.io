@@ -119,6 +119,7 @@ img {
 .portfolio-container h1 {
   font-size: 2rem;
   line-height: 2rem;
+  padding-left: 1rem;
 }
 
 /*Begin Media Queries for Tablets and Desktop*/
@@ -132,6 +133,10 @@ img {
     font-size: 2rem;
     line-height: 2rem;
   }
+  .portfolio-container h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
 }
 
 @media (min-width: 920px) {
@@ -142,5 +147,9 @@ img {
   .hero-heading {
     font-size: 6rem;
     line-height: 6rem;
+  }
+  .portfolio-container h1 {
+    font-size: 5rem;
+    line-height: 5rem;
   }
 }
